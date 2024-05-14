@@ -1,0 +1,560 @@
+a{
+    text-decoration: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+li{
+    list-style: none;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    
+    .header_container{
+        width: 100%;
+        max-width: 1400px;
+        height: 96px;
+        display: flex;
+        position: absolute;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 auto;
+        backdrop-filter: blur(50px);
+    }
+
+
+        .boglanish{
+            width: 141px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: #41A5EE;
+            display: flex;
+            align-items: center;
+
+            a{
+                align-items: center;
+                color: #fff;
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+    }
+
+
+
+.btn_tell{
+    width: 141px;
+    height: 40px;
+    background-color: #41A5EE;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    a{
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+
+.navbar_ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+
+    li{
+        a{
+            color: #fff;
+            font-size: 20px;
+
+            &:hover{
+                color: aqua;
+            }
+        }
+    }
+}
+
+.menu_icon{
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    a{
+        font-size: 16px;
+    }
+
+    .btn_tell{
+        width: 40px;
+        height: 40px;
+        display: flex;
+    }
+
+    .boglanish_tell{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar_ul{
+        display: none;
+    }
+    .menu_icon{
+        display: flex;
+    }
+}
+
+main{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    background-image: url("../Imgs/background_image.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;        
+    margin: 0 auto;
+    align-items: center;
+}
+.ellipse_1{
+    width: 650px;
+    height: 650px;
+    border-radius: 50%;
+    margin: 100px 0 0 742px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00082214;
+
+    .ellipse_2{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #15073426;
+    }
+
+    .ellipse_3{
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        align-items: center;
+        background-color: #15073440;
+
+        .joylinks{
+            font-weight: 700;
+            font-size: 80px;
+            color: #00D4C6;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 180px;
+
+        }
+        h1{
+            font-weight: 200;
+            font-size: 56px;
+            color: #00D4C6;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+.joylinks_bilan{
+    width: 110%;
+    max-width: 1400px;
+    height: 54px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #0500FF;
+
+    p{
+        font-weight: 400;
+        font-size: 25px;
+        color: #FFFFFF;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.for_sections_div{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #030249f0;    
+}
+.section1{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    padding: 29px 0 0 0; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .bizning_kurslar{
+        color: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 40px;
+        margin-bottom: 96px;
+    }
+    .cards_div{
+        width: 100%;
+        max-width: 1400px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        gap: 54px;
+    }
+    .cards{
+        width: 550px;
+        height: 290px;
+        border-radius: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid #7ED5EA;
+        background: #4B9FE133;
+
+        .for_write{
+            display: grid;
+            gap: 15px;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto;
+        }
+
+        h1{
+            font-weight: 400;
+            font-size: 28px;
+            color: #FFFFFF;
+        }
+        .frontend_p{
+            color: #fff;
+        }
+        .kursga_yozilish{
+            width: 225px;
+            height: 55px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 12px;
+            border: 2px solid #7ED5EA;
+
+            .registratsiya{
+                color: #7ED5EA;
+                font-weight: 400;
+                font-size: 20px;
+            }
+        }
+    }
+    .card{
+        width: 550px;
+        height: 290px;
+        border-radius: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid #7ED5EA;
+        background: #4B9FE133;
+        .for_write{
+            display: grid;
+            gap: 5px;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto;
+        }
+        h1{
+            color: #fff;
+        }
+        p{
+            color: #fff;
+        }
+        .kursga_yozilish{
+            width: 225px;
+            height: 55px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 12px;
+            border: 2px solid #7ED5EA;
+        }
+        .registratsiya{
+            color: #7ED5EA;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+}
+.line1{
+    width: 1000px;
+    height: 3px;
+    background-color: #7ED5EA;
+    margin: 100px 0;
+}
+.section2{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+        .bizning{
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 40px;
+
+            span{
+                color: #7ED5EA;
+            }
+        }
+
+    .for_cards_div{
+        width: 100%;
+        max-width: 1400px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        margin: 71px 0 160px 0;
+    }
+    .card_about_cours{
+        width: 380px;
+        height: 405px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: end;
+
+        .siftli_talim{
+            width: 380px;
+            height: 340px;
+            border: 3px solid #7ED5EA;
+            border-radius: 25px;
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto;
+            place-items: center;
+            align-items: center;
+
+            .number{
+                width: 130px;
+                height: 130px;
+                margin-top: -60px;
+                border-radius: 25px;
+                background-color: #7ED5EA;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+
+                .number_00{
+                    font-weight: 400;
+                    font-size: 80px;
+                    color: #fff;
+                }
+            }
+            .talim{
+                font-weight: 400;
+                font-size: 32px;
+                color: #FFFFFF;
+            }
+            p{
+                font-weight: 400;
+                font-size: 18px;
+                color: #FFFFFF;
+                align-items: center;
+            }
+        }
+    }
+}
+.imgs_div{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 160px;
+
+
+    .img_markaz{
+        width: 420px;
+        height: auto;
+    }
+}
+.ruyxatdan_utish{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    place-items: center;
+
+    h1{
+        font-family: "Goldman", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 32px;
+        color: #fff;
+    }
+    .input_div{
+        width: 1134px;
+        height: 680px;
+        margin: 78px 0;
+        background-image: url("../Imgs/image\ 5.png");
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        place-items: center;
+
+        input{
+            width: 392px;
+            height: 99px;
+            border-radius: 20px;
+            font-size: 25px;
+            font-weight: 400;
+            color: black;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: #FFFFFF33;
+        }
+        select{
+            width: 392px;
+            height: 99px;
+            border-radius: 20px;
+            font-size: 25px;
+            font-family: "Itim", cursive;
+            font-weight: 400;
+            font-style: normal;
+            background-color: #FFFFFF33;
+            color: black;
+            align-items: center;
+        }
+        button{
+            width: 392px;
+            height: 99px;
+            border-radius: 20px;
+            background-color: #4B9FE1;
+            border: none;
+            color: black;
+            cursor: pointer;
+            font-size: 25px;
+            align-items: center;
+            font-family: "Itim", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+    }
+}
+footer{
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 30px 0 100px;
+    background-color: #1C1C1C;
+
+    .footer_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer_left{
+        max-width: 700px;
+        height: auto;
+    }
+    .left_div{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .footer_info{
+        color: #574f4f;
+        font-size: 24px;
+    }
+    .footer_p{
+        color: white;
+        font-size: 17px ;
+    }
+    .end_div{
+        max-width: 1400px;
+        height: auto;
+        padding: 30px 0;
+        margin-top: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        border-top: 3px solid #FFFFFF;
+    }
+    .icons{
+        display: flex;
+        gap: 30px;
+    }
+    .footer_p1{
+        color: white;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .footer_p2{
+        color: rgb(43, 158, 235);
+        font-weight: 600;
+        font-size: 22px;
+        span{
+            color: white;
+        }
+    }
+}
